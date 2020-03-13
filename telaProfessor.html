@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de avaliação de professor</title>
+    <link rel="stylesheet" href="stilo.css">
+</head>
+<body>
+    <h1>Avaliar desempenho do professor</h1>
+    <div>
+        <section>
+            <label for="selecionar">Selecionar professor:</label><br>
+            <select name="selecProfessor" id="prof">
+                <option value="prof1">David</option>
+                <option value="prof2">Arturito</option>
+                <option value="prof3">Jeferson</option>
+                <option value="prof4">Marcelo</option>
+                <option value="prof5">Sampaio</option>
+            </select><br>
+            <div id="checar">
+                <input type="checkbox" name="" id="check">
+                <label for="anonimo">anonimo</label>   
+            </div> 
+                   
+            <div id="estrelas">
+                <h3> Quantas estrelas vai dar?</h3>
+                <input type="radio" name="checar" id="checar1">
+                <label for="estrela1">1</label>
+                <input type="radio" name="checar" id="checar2">
+                <label for="estrela1">2</label>
+                <input type="radio" name="checar" id="checar3">
+                <label for="estrela1">3</label>
+                <input type="radio" name="checar" id="checar4">
+                <label for="estrela1">4</label>
+                <input type="radio" name="checar" id="checar5">
+                <label for="estrela1">5 </label>
+            </div>
+            
+            <div id="comentario">
+                <label for="comentario">Inserir comentário:</label><br>
+                <textarea name="comnetario" id="coment" placeholder="Insira o seu cometário aqui!"></textarea>   
+            </div>
+            <div id="btns">
+                <button id="cancelar">Cancelar</button>
+                <button id="corrigir">Corrigir</button>
+                <button id="confirmar">Confirmar</button>
+            </div> 
+        </section>    
+    </div>
+    
+</body>
+</html>

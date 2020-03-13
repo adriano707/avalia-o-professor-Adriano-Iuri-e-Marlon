@@ -1,0 +1,96 @@
+body {
+    margin-top: 100px;
+    background-color: rgb(76, 145, 248);
+    color: white;
+}
+
+section {
+    font-weight: bold;
+    background-color: rgba(253, 253, 234, 0.925);
+    text-align: left;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    padding: 50px;
+    color: black;
+    box-shadow: 3px 3px 3px rgb(83, 83, 83);
+    border-radius: 5px 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+select {
+    width: 500px;
+    height: 25px;
+}
+
+#coment {
+    width: 500px;
+    height: 100px;
+}
+
+#checar {
+    margin-top: 50px;
+    text-align: left;
+    
+}
+
+#estrelas {
+    margin-top: 50px;
+}
+
+#comentario {
+    margin-top: 50px;
+}
+
+#cancelar {
+    background-color:  rgb(241, 112, 112);
+    border-radius: 10px 10px;
+    height: 50px;
+    width: 150px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#corrigir {
+    background-color:  rgb(247, 174, 91);
+    border-radius: 10px 10px;
+    height: 50px;
+    width: 150px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#confirmar {
+    background-color:  rgb(154, 225, 247);
+    border-radius: 10px 10px;
+    height: 50px;
+    width: 150px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#confirmar:hover {
+    background-color:rgb(76, 145, 248);
+}
+
+#corrigir:hover {
+    background-color: rgba(250, 91, 33, 0.781);
+}
+
+#cancelar:hover {
+    background-color: rgb(238, 18, 18);
+}
+
+#btns {
+    text-align: center;
+}
+
+
+
